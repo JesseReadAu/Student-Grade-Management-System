@@ -1,0 +1,30 @@
+﻿##Project Requirements
+
+- Functional Requirements
+The application is conosle application in C# used to manage student grades. It requirement is to be able to add student, add grades for different subjects per student, average a students grade and show a students record.
+
+- Non-Functional Requirements
+The application should be a clean console application with minimal user input to complete a users required task.
+
+- Project Objectives
+1. Complete Documentation in .5 days.
+2. Build the application in 1 day.
+3. Test for bugs prior to upload in 1 day.
+
+
+##Design Outline
+Classes:
+Student - <int> id, <string> name, list<string> className, list<int> grade 
+
+Modules:
+AddStudent(<int> id, <string> name)
+AddGrade(<int> studentId, <string> className, <int> grade)
+
+GetStudent(<int> studentId)
+GetSudents()
+GetGrades()
+
+Title(<String> menuTitle) #Displays header with title in Console
+MainMenu() # Displays Main Menu
+
+Calculate Grade(<int> studentID)
